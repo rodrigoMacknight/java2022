@@ -18,7 +18,7 @@ public class MaxSubarray {
     }
 
     public int getOptimunMaxSubarray(int[] nums) {
-      int maxSum = nums[0];
+      int maxSum = nums[0];   
       int curSum = 0;
         for (int n: nums) {
             if (curSum < 0) {
