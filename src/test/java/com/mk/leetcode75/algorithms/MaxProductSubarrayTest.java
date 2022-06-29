@@ -45,4 +45,15 @@ public class MaxProductSubarrayTest {
         assertEquals(expectedResponse, toTest.getMaxSubarrayProduct(nums));
 
     }
+
+    @Test
+    void testMPSwithOneElement(){
+        toTest = new MaxProductSubarray();
+        int[] nums = {-2};
+
+        int expectedResponse = -2;
+        assertEquals(expectedResponse, toTest.getMaxSubarrayProduct(nums));
+
+    }
+
 }
